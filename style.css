@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+html{     
+    scroll-behavior: smooth; 
+}
+body {
+background-color: #1F1F1F;
+position: relative;
+}
+p{
+    font-size: 70px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 850px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+img.bleskys{
+    animation-name: blesk;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in;
+    height: 1119px;
+    
+}
+.blesk{
+    top: -54px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    margin: auto;
+    padding: 0;
+    transform: translateX(-50%);
+}
+.g,.r,.a,.p,.h,.i,.c,.d,.e,.s,.i2,.g2,.n,.e2,.r2{
+    z-index: 3;
+    position: absolute;
+}
+.trub{
+    width: 668px;
+}
+.g{
+    width: 125px;
+    right: 535px;
+    top: -21px;
+}
+.r{
+    width: 125px;
+    right: 431px;
+    top: -20px;
+}
+.a{
+    width: 126px;
+    right: 342px;
+    top: -19px;
+}
+.p{
+    width: 116.5px;
+    right: 250px;
+    top: -16.5px;
+}
+.h{
+    width: 117px;
+    right: 169px;
+    top: -15.5px;
+}
+.i{
+    width: 82.5px;
+    right: 117px;
+    top: -16px;
+}
+.c{
+    width: 122.5px;
+    right: 20px;
+    top: -20px;
+}
+.d{
+    width: 119px;
+    right: 569px;
+    top: 180px;
+}
+.e{
+    width: 118.5px;
+    right: 475px;
+    top: 174px;
+}
+.s{
+    width: 127.5px;
+    right: 395px;
+    top: 170px;
+}
+.i2{
+    width: 75.5px;
+    right: 355px;
+    top: 177px;
+}
+.g2{
+    width: 125px;
+    right: 275px;
+    top: 173px;
+}
+.n{
+    width: 127.5px;
+    right: 162px;
+    top: 179px;
+}
+.e2{
+    width: 118.5px;
+    right: 70px;
+    top: 174px;
+}
+.r2{
+    width: 125px;
+    right: -15px;
+    top: 173px;
+}
+.div1{
+    top: 100px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    margin: auto;
+    padding: 0;
+    transform: translateX(-50%);
+}
+.nadpis{
+    margin: 0 auto;
+    display: block;
+    color: white;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 80px;
+    text-align: center; margin-top: 100pt;
+}
+.uvod{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.levy, .pravy{
+    height: 1067px;
+    width: 960px;
+}
+.text1{
+    animation-name:text;
+    animation-duration: 2s;
+    animation-fill-mode:backwards;
+    animation-delay:1.2s ;
+}
+.text2{
+    animation-name:text;
+    animation-duration: 2s;
+    animation-fill-mode:backwards;
+    animation-delay:1.5s;
+}
+.levy{
+    background-image: url("obrazky/fotka_me.jpg");
+    background-size: auto 1067px;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: all 2s ease-out;
+    animation-name: levy;
+    animation-delay: 0.8s;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+.pravy{
+    background-image: url("obrazky/Meditace.jpg");
+    background-size: auto 1067px;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(100%);
+    transition: all 2s ease-out;
+    opacity: 0.5;
+    animation-name: pravy;
+    animation-duration: 2s;
+    animation-delay: 1.3s;
+    animation-fill-mode: backwards;
+}
+.levy:hover{
+    filter: none;
+    background-size: auto 1200px;
+    opacity: 1;
+}
+.pravy:hover{
+    filter: none;
+    background-size: auto 1200px; 
+    opacity: 1;
+}
+.div4{
+ background-image: url(obrazky/fotka_klaviru.jpg);
+ background-size:cover;
+ background-position: center;
+ min-height: 800px;
+
+}
+.div3{
+    width: 100%;
+    height: 682px;
+    position: relative;
+}
+.veliky{
+    margin-top: 70px;
+    font-size: 100px;
+    margin: 100px;
+    margin-top: 60px;
+    
+}
+.nevim{
+    margin: 50px;
+    font-size: 100px;
+}
+.prace img{
+    transform: translateX(-50%);
+    position: absolute;
+    height: 682px;
+}
+.prace{
+    top: -54px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    margin: auto;
+    padding: 0;
+    transform: translateX(-50%);
+}
+.cabina,.lod,.meditace,.mind,.robert,.upside,.dira,.houba,.cokolada,.ohen{
+    animation-duration: 50s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+} 
+.div3:hover .cabina,.div3:hover .lod,.div3:hover .meditace,.div3:hover .mind,.div3:hover .robert,.div3:hover .upside,.div3:hover .dira,.div3:hover .houba,.div3:hover .cokolada,.div3:hover .ohen{
+    animation-play-state: paused;
+}
+.ohen,.cabina{
+    animation-name: cabina;  
+}
+.ohen{
+    animation-direction:reverse;
+}
+.lod,.cokolada{
+    animation-name: lod;
+}
+.cokolada{
+    animation-direction:reverse;
+}
+.meditace,.houba{
+    animation-name: meditace;
+}
+.houba{
+    animation-direction:reverse;
+}
+.mind,.dira{
+    animation-name: mind;
+}
+.dira{
+    animation-direction:reverse;
+}
+.robert,.upside{
+    animation-name: robert;
+}
+.upside{
+    animation-direction:reverse;
+}
+.normal{
+    
+    font-size: 50px;
+    margin: 0;
+    line-height: 150px;
+}
+@keyframes blesk{
+    0%{
+        transform:scale(20);
+        opacity:0;
+    }
+    100%{
+        transform:scale(1);
+        opacity: 1;
+    }
+}
+@keyframes cabina{
+    0%, 1%{
+        opacity: 0;
+    }
+    2%, 10%{
+        opacity: 1;
+    }
+    11%, 100%{
+  
+        opacity: 0;
+    }
+}
+@keyframes lod{
+    0%, 10%{
+        opacity: 0;
+    }
+    11%, 20%{
+        opacity: 1;
+    }
+    21%, 100%{
+        opacity: 0;
+    }
+}
+@keyframes meditace{
+    0%, 20%{
+        opacity: 0;
+    }
+    21%, 30%{
+        opacity: 1;
+    }
+    31%, 100%{
+        opacity: 0;
+    }
+}
+@keyframes mind{
+    0%, 30%{
+        opacity: 0;
+    }
+    31%, 40%{
+        opacity: 1;
+    }
+    41%, 100%{
+        opacity: 0;
+    }
+}
+@keyframes robert{
+    0%, 40%{
+        opacity: 0;
+    }
+    41%, 50%{
+        opacity: 1;
+    }
+    51%, 100%{
+        opacity: 0;
+    }
+}
+@keyframes text{
+    0%{
+        opacity: 0;
+        transform: translateY(1em);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes levy{
+    0%{
+        transform: translateX(-960px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes pravy{
+    0%{
+        visibility: hidden;
+        transform: translateX(960px);
+    }
+    1%{
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
